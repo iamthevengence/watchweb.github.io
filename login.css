@@ -1,0 +1,46 @@
+.container{
+    border: 2px solid black;
+    width: 300px;
+    background: transparent;
+    height: 300px;
+    border-radius: 50px;
+    backdrop-filter: blur(20px);
+    
+}
+
+.container .form h2{
+    text-align: center;
+    color: white;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url('image/Rolex_Milgauss_Watches.jpg')no-repeat ;
+    background-size: cover;
+    background-position: center;
+   
+
+}
+
+
+
+.form-control  input{
+        width: 90%;
+        border-radius: 50px;
+        height: 30px;
+        background: transparent;
+      
+}
+
+.form-control  input::placeholder{
+        color: white;
+}
+
+.container button{
+    width: 90%;
+    height: 30px;
+    border-radius: 50px;
+}
